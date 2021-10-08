@@ -20,10 +20,10 @@ let prezzoBiglietto = kmTotali * prezzoAlKm
 console.log(prezzoBiglietto)
 
 if (eta < 18) {
-    alert("La sua età rientra nella fascia dove verrà applicato uno sconto pari al 20% al prezzo intero del biglietto.");
+    alert("La sua età rientra nella fascia dove le verrà applicato uno sconto pari al 20% al prezzo intero del biglietto.");
     prezzoBiglietto = prezzoBiglietto - ((prezzoBiglietto * 20) / 100)
 } else if (eta >= 65) {
-    alert("La sua età rientra nella fascia dove verrà applicato uno sconto pari al 40% al prezzo intero del biglietto.");
+    alert("La sua età rientra nella fascia dove le verrà applicato uno sconto pari al 40% al prezzo intero del biglietto.");
     prezzoBiglietto = prezzoBiglietto - ((prezzoBiglietto * 40) / 100)
 }
 
